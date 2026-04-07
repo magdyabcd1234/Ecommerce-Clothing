@@ -106,7 +106,7 @@ export default function Wishlist() {
                                     </button>
 
                                     <button
-                                        onClick={() => removeFromWishlist(item.id)}
+                                        onClick={() => toggleWishlist(item.id)}
                                         className="p-2 rounded-full bg-red-500 cursor-pointer text-white hover:bg-red-600 transition"
                                     >
                                         <Icon icon="mdi:delete" width="20" height="20"/>
