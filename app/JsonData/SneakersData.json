@@ -1,0 +1,156 @@
+[
+    {
+        "id": "sk1",
+        "image": "/Shoes1.jpg",
+        "brand": "zenuro",
+        "title": "Wide Fit loafers in burgundy faux suede with tassel",
+        "price": "$98.00"
+    },
+    {
+        "id": "sk2",
+        "image": "/Shoes2.jpg",
+        "brand": "zenuro",
+        "title": "Best Leather Wide Fit trainers in white",
+        "price": "$58.65"
+    },
+    {
+        "id": "sk3",
+        "image": "/Shoes3.jpg",
+        "brand": "zenuro",
+        "title": "Best Trainers Fit in tropical leaf print",
+        "price": "$112.21"
+    },
+    {
+        "id": "sk4",
+        "image": "/Shoes4.jpg",
+        "brand": "zenuro",
+        "title": "Creeper brogue shoes in burgundy patent",
+        "price": "$84.00"
+    },
+    {
+        "id": "sk5",
+        "image": "/Shoes5.jpg",
+        "brand": "dumark",
+        "title": "Vapormax Flyknit 3.0 trainers in white",
+        "price": "$95.50"
+    },
+    {
+        "id": "sk6",
+        "image": "/Shoes6.jpg",
+        "brand": "quisuito",
+        "title": "Slip on plimsolls in black canvas",
+        "price": "$97.30"
+    },
+    {
+        "id": "sk7",
+        "image": "/Shoes7.webp",
+        "brand": "quisuito",
+        "title": "Pxford shoes in black faux suede",
+        "price": "$98.40"
+    },
+    {
+        "id": "sk8",
+        "image": "/Shoes8.webp",
+        "brand": "quisuito",
+        "title": "Slip-on checkerboard plimsolls in black veyebw",
+        "price": "$99.00"
+    },
+    {
+        "id": "sk9",
+        "image": "/Shoes9.webp",
+        "brand": "quisuito",
+        "title": "Nite jogger reflective trainers in white",
+        "price": "$98.20"
+    },
+    {
+        "id": "sk10",
+        "image": "/Shoes10.webp",
+        "brand": "quisuito",
+        "title": "Best Trainers wide in triple white",
+        "price": "$98.12"
+    },
+    {
+        "id": "sk11",
+        "image": "/Shoes11.jpg",
+        "brand": "Iguera",
+        "title": "Iridescent strap liders in white with and chunky sole",
+        "price": "$99.00"
+    },
+    {
+        "id": "sk12",
+        "image": "/Shoes12.jpg",
+        "brand": "Dumark",
+        "title": "Loafers in black faux suede with snaffle detail",
+        "price": "$89.00"
+    },
+    {
+        "id": "sk13",
+        "image": "/Shoes13.webp",
+        "brand": "Cerveo",
+        "title": "Look plimsolls in grey or White",
+        "price": "$89.00"
+    },
+    {
+        "id": "sk14",
+        "image": "/Shoes14.jpg",
+        "brand": "Guaraxu",
+        "title": "Nite jogger trainers in triple Gray and light yello",
+        "price": "$108.00"
+    },
+    {
+        "id": "sk15",
+        "image": "/Shoes15.webp",
+        "brand": "Cerveo",
+        "title": "Sk8-Hi suede trainers in plimsolls black",
+        "price": "$78.00"
+    },
+    {
+        "id": "sk16",
+        "image": "/Shoes16.jpg",
+        "brand": "Iguera",
+        "title": "Sliders in white with iridescent strap and chunky sole",
+        "price": "$45.00"
+    },
+    {
+        "id": "sk17",
+        "image": "/Shoes17.jpg",
+        "brand": "Zenuro",
+        "title": "Sliders in white Trainers in tropical leaf print",
+        "price": "$65.00"
+    },
+    {
+        "id": "sk18",
+        "image": "/Shoes18.jpg",
+        "brand": "Iguera",
+        "title": "white & gray Trainers In White AV4789-101",
+        "price": "$72.00"
+    },
+    {
+        "id": "sk19",
+        "image": "/Shoes19.jpg",
+        "brand": "Dumark",
+        "title": "gray Trainers in white with toe cap",
+        "price": "$87.00"
+    },
+    {
+        "id": "sk20",
+        "image": "/Shoes20.jpg",
+        "brand": "Dumark",
+        "title": "Vapormax Flyknit 3.0 trainers in white",
+        "price": "$70.00"
+    },
+    {
+        "id": "sk21",
+        "image": "/Shoes21.webp",
+        "brand": "Dumark",
+        "title": "Wide Fit loafers in burgundy faux suede with tassel",
+        "price": "$110.00"
+    },
+    {
+        "id": "sk22",
+        "image": "/Shoes22.webp",
+        "brand": "Guaraxu",
+        "title": "Wide Yung-96 trainers in white",
+        "price": "$68.00"
+    }
+]

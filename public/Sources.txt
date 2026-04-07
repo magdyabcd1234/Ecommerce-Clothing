@@ -1,0 +1,1100 @@
+
+npx create-next-app@latest .
+
+npm i swiper
+
+npm install bootstrap-icons
+
+npm install @iconify/react
+
+npm install remixicon react-icons @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons
+
+npm install react-hot-toast 
+
+
+
+// Json Data
+
+// Mens Product Json Data
+
+[
+    {
+        "id": "m1",
+        "image": "/Mens-product1.jpg",
+        "secondImage": "",
+        "brand": "Dumark",
+        "title": "3-Stripes Full Zip Hoodie",
+        "lessPrice": "",
+        "price": "$65.00",
+        "off": ""
+    },
+    {
+        "id": "m2",
+        "image": "/Mens-product2.jpg",
+        "secondImage": "/Mens-product3.jpg",
+        "brand": "Iguera",
+        "title": "AFS Tiro jersey white with black stripes",
+        "lessPrice": "$65.00",
+        "price": "$55.00",
+        "off": "-31% oFF"
+    },
+    {
+        "id": "m3",
+        "image": "/Mens-product4.webp",
+        "secondImage": "",
+        "brand": "Iguera",
+        "title": "Dropped shoulder jumper in landscape knit",
+        "lessPrice": "",
+        "price": "$65.00",
+        "off": ""
+    },
+    {
+        "id": "m4",
+        "image": "/Mens-product5.webp",
+        "secondImage": "",
+        "brand": "Cerveo",
+        "title": "Dry Academy Pants KPZ",
+        "lessPrice": "$67.00",
+        "price": "$52.00",
+        "off": "-31% oFF"
+    },
+    {
+        "id": "m5",
+        "image": "/Mens-product6.jpg",
+        "secondImage": "/Mens-product7.webp",
+        "brand": "Cerveo",
+        "title": "Dry Cool Miler Top Short Sleeve",
+        "lessPrice": "",
+        "price": "$62.00",
+        "off": ""
+    },
+    {
+        "id": "m6",
+        "image": "/Mens-product8.jpg",
+        "secondImage": "",
+        "brand": "Dumark",
+        "title": "Dry Hoodie Full Zip Hyperdry Transcend Lt",
+        "lessPrice": "",
+        "price": "$67.00",
+        "off": ""
+    },
+    {
+        "id": "m7",
+        "image": "/Mens-product9.webp",
+        "secondImage": "",
+        "brand": "Quisuito",
+        "title": "Five-Pocket Golf Shorts",
+        "lessPrice": "",
+        "price": "$68.00",
+        "off": ""
+    },
+    {
+        "id": "m8",
+        "image": "/Mens-product10.webp",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Golf Nineties Polo Shirt",
+        "lessPrice": "",
+        "price": "$65.00",
+        "off": ""
+    },
+    {
+        "id": "m9",
+        "image": "/Mens-product11.jpg",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "ISO Chill Shore Break Camo Hoodie",
+        "lessPrice": "$75.00",
+        "price": "$65.00",
+        "off": "35% OFF"
+    },
+    {
+        "id": "m10",
+        "image": "/Mens-product12.jpg",
+        "secondImage": "",
+        "brand": "Iguera",
+        "title": "Liga Shorts Expedite Material",
+        "lessPrice": "",
+        "price": "$60.00",
+        "off": ""
+    },
+    {
+        "id": "m11",
+        "image": "/Mens-product13.webp",
+        "secondImage": "",
+        "brand": "Cerveo",
+        "title": "NSW Windrunner Hoodie Jacket",
+        "lessPrice": "",
+        "price": "$50.00",
+        "off": ""
+    },
+    {
+        "id": "m12",
+        "image": "/Mens-product14.webp",
+        "secondImage": "",
+        "brand": "Dumark",
+        "title": "Plus knitted sheer mesh jumper in black",
+        "lessPrice": "",
+        "price": "$57.00",
+        "off": ""
+    },
+    {
+        "id": "m13",
+        "image": "/Mens-product15.jpg",
+        "secondImage": "",
+        "brand": "Quisuito",
+        "title": "Regola Sweatshirt Black",
+        "lessPrice": "$74.00",
+        "price": "$59.00",
+        "off": "40% OFF"
+    },
+    {
+        "id": "m14",
+        "image": "/Mens-product16.jpg",
+        "secondImage": "",
+        "brand": "Cerveo , Dumark",
+        "title": "SF T7 Track Pants",
+        "lessPrice": "$64.00",
+        "price": "$54.00",
+        "off": "30% OFF"
+    },
+    {
+        "id": "m15",
+        "image": "/Mens-product17.jpg",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Sportstyle Terry Short Sleeve Hoodie",
+        "lessPrice": "",
+        "price": "$64.00",
+        "off": ""
+    },
+    {
+        "id": "m16",
+        "image": "/Mens-product18.jpg",
+        "secondImage": "",
+        "brand": "Quisuito",
+        "title": "Superstar Track Top with contrast piping lines shoulders",
+        "lessPrice": "",
+        "price": "$72.00",
+        "off": ""
+    },
+    {
+        "id": "m17",
+        "image": "/Mens-product19.jpg",
+        "secondImage": "",
+        "brand": "Guaraxu",
+        "title": "Trefoil Tank Top",
+        "lessPrice": "",
+        "price": "$52.00",
+        "off": ""
+    },
+    {
+        "id": "m18",
+        "image": "/Mens-product20.jpg",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "UA Tac Heat Gear Compression Tee",
+        "lessPrice": "",
+        "price": "$48.00",
+        "off": ""
+    },
+    {
+        "id": "m19",
+        "image": "/Mens-product21.jpg",
+        "secondImage": "",
+        "brand": "Iguera",
+        "title": "UA Tech 1/2 Zip",
+        "lessPrice": "",
+        "price": "$51.00",
+        "off": ""
+    },
+    {
+        "id": "m20",
+        "image": "/Mens-product22.jpg",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "UFC Pullover Hoodie",
+        "lessPrice": "",
+        "price": "$55.00",
+        "off": ""
+    },
+    {
+        "id": "m21",
+        "image": "/Mens-product23.jpg",
+        "secondImage": "",
+        "brand": "Guaraxu",
+        "title": "Wild Pack AOP Shorts",
+        "lessPrice": "",
+        "price": "$42.00",
+        "off": ""
+    },
+    {
+        "id": "m22",
+        "image": "/Mens-product24.jpg",
+        "secondImage": "",
+        "brand": "Guaraxu",
+        "title": "Workout Ready Melange Double Knit Pant",
+        "lessPrice": "",
+        "price": "$53.00",
+        "off": ""
+    }
+]
+
+// New Arrival Json Data
+
+[
+    {
+        "id": "newA1",
+        "image": "/NewArrival-1.webp",
+        "secondImage": "/NewArrival-2.webp",
+        "brand": "Iguera",
+        "title": "Short sleeve maternity  top with button detail",
+        "lessPrice": "$98.00",
+        "price": "$85.00",
+        "off": "-40% oFF"
+    },
+    {
+        "id": "newA2",
+        "image": "/NewArrival-3.webp",
+        "secondImage": "/NewArrival-4.webp",
+        "brand": "Dumark",
+        "title": "Training printed legging in purple",
+        "lessPrice": "$99.00",
+        "price": "$87.00",
+        "off": "-41% oFF"
+    },
+    {
+        "id": "newA3",
+        "image": "/NewArrival-5.webp",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Maternity nursing short top with button detail",
+        "lessPrice": "$95.00",
+        "price": "$81.00",
+        "off": "-35% oFF"
+    },
+    {
+        "id": "newA4",
+        "image": "/NewArrival-6.webp",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Tall high neck top in mesh with puff sleeve",
+        "lessPrice": "",
+        "price": "$80.00",
+        "off": ""
+    },
+    {
+        "id": "newA5",
+        "image": "/NewArrival-7.webp",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Crop mesh top with cap sleeve in horoscope print",
+        "lessPrice": "",
+        "price": "$75.00",
+        "off": ""
+    },
+    {
+        "id": "newA6",
+        "image": "/NewArrival-8.webp",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Tall Florence authentic leg jeans in washed black",
+        "lessPrice": "$35.00",
+        "price": "$22.00",
+        "off": "-31% oFF"
+    }
+]
+
+// Random Products Json Data
+
+[
+    {
+        "id": "r1",
+        "image": "/Mens-product1.jpg",
+        "secondImage": "",
+        "brand": "Dumark",
+        "title": "3-Stripes Full Zip Hoodie",
+        "lessPrice": "",
+        "price": "$65.00",
+        "off": ""
+    },
+    {
+        "id": "r2",
+        "image": "/NewArrival-1.webp",
+        "secondImage": "/NewArrival-2.webp",
+        "brand": "Iguera",
+        "title": "Short sleeve maternity  top with button detail",
+        "lessPrice": "$98.00",
+        "price": "$85.00",
+        "off": "-40% oFF"
+    },
+    {
+        "id": "r3",
+        "image": "/Shoes21.webp",
+        "brand": "Dumark",
+        "title": "Wide Fit loafers in burgundy faux suede with tassel",
+        "price": "$110.00"
+    },
+    {
+        "id": "r4",
+        "image": "/women-product4.webp",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Crop mesh top with cap sleeve in horoscope print",
+        "lessPrice": "",
+        "price": "$75.00",
+        "off": ""
+    },
+    {
+        "id": "r5",
+        "image": "/Mens-product5.webp",
+        "secondImage": "",
+        "brand": "Cerveo",
+        "title": "Dry Academy Pants KPZ",
+        "lessPrice": "$67.00",
+        "price": "$52.00",
+        "off": "-31% oFF"
+    },
+    {
+        "id": "r6",
+        "image": "/NewArrival-6.webp",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Tall high neck top in mesh with puff sleeve",
+        "lessPrice": "",
+        "price": "$80.00",
+        "off": ""
+    },
+    {
+        "id": "r7",
+        "image": "/women-product8.jpg",
+        "secondImage": "",
+        "brand": "Dumark",
+        "title": "Floral embroidered halter prom midi dress",
+        "lessPrice": "",
+        "price": "$35.00",
+        "off": ""
+    },
+    {
+        "id": "r8",
+        "image": "/women-product15.webp",
+        "secondImage": "",
+        "brand": "Quisuito",
+        "title": "Palm tree print pyjamas set in white pattern",
+        "lessPrice": "",
+        "price": "$45.00",
+        "off": ""
+    },
+     {
+        "id": "r9",
+        "image": "/Mens-product11.jpg",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "ISO Chill Shore Break Camo Hoodie",
+        "lessPrice": "$75.00",
+        "price": "$65.00",
+        "off": "35% OFF"
+    },
+    {
+        "id": "r10",
+        "image": "/NewArrival-8.webp",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Tall Florence authentic leg jeans in washed black",
+        "lessPrice": "$35.00",
+        "price": "$22.00",
+        "off": "-31% oFF"
+    }
+]
+
+// Sneakers Json Data
+
+[
+    {
+        "id": "sk1",
+        "image": "/Shoes1.jpg",
+        "brand": "zenuro",
+        "title": "Wide Fit loafers in burgundy faux suede with tassel",
+        "price": "$98.00"
+    },
+    {
+        "id": "sk2",
+        "image": "/Shoes2.jpg",
+        "brand": "zenuro",
+        "title": "Best Leather Wide Fit trainers in white",
+        "price": "$58.65"
+    },
+    {
+        "id": "sk3",
+        "image": "/Shoes3.jpg",
+        "brand": "zenuro",
+        "title": "Best Trainers Fit in tropical leaf print",
+        "price": "$112.21"
+    },
+    {
+        "id": "sk4",
+        "image": "/Shoes4.jpg",
+        "brand": "zenuro",
+        "title": "Creeper brogue shoes in burgundy patent",
+        "price": "$84.00"
+    },
+    {
+        "id": "sk5",
+        "image": "/Shoes5.jpg",
+        "brand": "dumark",
+        "title": "Vapormax Flyknit 3.0 trainers in white",
+        "price": "$95.50"
+    },
+    {
+        "id": "sk6",
+        "image": "/Shoes6.jpg",
+        "brand": "quisuito",
+        "title": "Slip on plimsolls in black canvas",
+        "price": "$97.30"
+    },
+    {
+        "id": "sk7",
+        "image": "/Shoes7.webp",
+        "brand": "quisuito",
+        "title": "Pxford shoes in black faux suede",
+        "price": "$98.40"
+    },
+    {
+        "id": "sk8",
+        "image": "/Shoes8.webp",
+        "brand": "quisuito",
+        "title": "Slip-on checkerboard plimsolls in black veyebw",
+        "price": "$99.00"
+    },
+    {
+        "id": "sk9",
+        "image": "/Shoes9.webp",
+        "brand": "quisuito",
+        "title": "Nite jogger reflective trainers in white",
+        "price": "$98.20"
+    },
+    {
+        "id": "sk10",
+        "image": "/Shoes10.webp",
+        "brand": "quisuito",
+        "title": "Best Trainers wide in triple white",
+        "price": "$98.12"
+    },
+    {
+        "id": "sk11",
+        "image": "/Shoes11.jpg",
+        "brand": "Iguera",
+        "title": "Iridescent strap liders in white with and chunky sole",
+        "price": "$99.00"
+    },
+    {
+        "id": "sk12",
+        "image": "/Shoes12.jpg",
+        "brand": "Dumark",
+        "title": "Loafers in black faux suede with snaffle detail",
+        "price": "$89.00"
+    },
+    {
+        "id": "sk13",
+        "image": "/Shoes13.webp",
+        "brand": "Cerveo",
+        "title": "Look plimsolls in grey or White",
+        "price": "$89.00"
+    },
+    {
+        "id": "sk14",
+        "image": "/Shoes14.jpg",
+        "brand": "Guaraxu",
+        "title": "Nite jogger trainers in triple Gray and light yello",
+        "price": "$108.00"
+    },
+    {
+        "id": "sk15",
+        "image": "/Shoes15.webp",
+        "brand": "Cerveo",
+        "title": "Sk8-Hi suede trainers in plimsolls black",
+        "price": "$78.00"
+    },
+    {
+        "id": "sk16",
+        "image": "/Shoes16.jpg",
+        "brand": "Iguera",
+        "title": "Sliders in white with iridescent strap and chunky sole",
+        "price": "$45.00"
+    },
+    {
+        "id": "sk17",
+        "image": "/Shoes17.jpg",
+        "brand": "Zenuro",
+        "title": "Sliders in white Trainers in tropical leaf print",
+        "price": "$65.00"
+    },
+    {
+        "id": "sk18",
+        "image": "/Shoes18.jpg",
+        "brand": "Iguera",
+        "title": "white & gray Trainers In White AV4789-101",
+        "price": "$72.00"
+    },
+    {
+        "id": "sk19",
+        "image": "/Shoes19.jpg",
+        "brand": "Dumark",
+        "title": "gray Trainers in white with toe cap",
+        "price": "$87.00"
+    },
+    {
+        "id": "sk20",
+        "image": "/Shoes20.jpg",
+        "brand": "Dumark",
+        "title": "Vapormax Flyknit 3.0 trainers in white",
+        "price": "$70.00"
+    },
+    {
+        "id": "sk21",
+        "image": "/Shoes21.webp",
+        "brand": "Dumark",
+        "title": "Wide Fit loafers in burgundy faux suede with tassel",
+        "price": "$110.00"
+    },
+    {
+        "id": "sk22",
+        "image": "/Shoes22.webp",
+        "brand": "Guaraxu",
+        "title": "Wide Yung-96 trainers in white",
+        "price": "$68.00"
+    }
+]
+
+// Womens Product data
+
+[
+    {
+        "id": "wm1",
+        "image": "/women-product1.jpg",
+        "secondImage": "",
+        "brand": "Cerveo",
+        "title": "4th & Reckless halter neck d-ring jumpsuit in Blue",
+        "lessPrice": "$55.00",
+        "price": "$33.00",
+        "off": "-40% OFF"
+    },
+    {
+        "id": "wm2",
+        "image": "/women-product2.webp",
+        "secondImage": "/women-product3.webp",
+        "brand": "Iguera",
+        "title": "Crew neck ribbed body in camel",
+        "lessPrice": "",
+        "price": "$75.00",
+        "off": ""
+    },
+    {
+        "id": "wm3",
+        "image": "/women-product4.webp",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Crop mesh top with cap sleeve in horoscope print",
+        "lessPrice": "",
+        "price": "$75.00",
+        "off": ""
+    },
+    {
+        "id": "wm4",
+        "image": "/women-product5.jpg",
+        "secondImage": "",
+        "brand": "Cerveo",
+        "title": "Fashion Union Plus tea dress in floral",
+        "lessPrice": "",
+        "price": "$55.00",
+        "off": ""
+    },
+    {
+        "id": "wm5",
+        "image": "/women-product6.jpg",
+        "secondImage": "",
+        "brand": "Cerveo",
+        "title": "Fashion Union Tall mini dress with high halter neck in ditsy floral",
+        "lessPrice": "",
+        "price": "$62.00",
+        "off": ""
+    },
+    {
+        "id": "wm6",
+        "image": "/women-product7.jpg",
+        "secondImage": "",
+        "brand": "Guaraxu",
+        "title": "Fashion Union Tall ruched front mini dress in floral",
+        "lessPrice": "$58.00",
+        "price": "$42.00",
+        "off": "-28% OFF"
+    },
+    {
+        "id": "wm7",
+        "image": "/women-product8.jpg",
+        "secondImage": "",
+        "brand": "Dumark",
+        "title": "Floral embroidered halter prom midi dress",
+        "lessPrice": "",
+        "price": "$35.00",
+        "off": ""
+    },
+    {
+        "id": "wm8",
+        "image": "/women-product9.jpg",
+        "secondImage": "",
+        "brand": "Dumark",
+        "title": "Joan cut out lace & microfibre underwired bodysuit",
+        "lessPrice": "$39.00",
+        "price": "$35.00",
+        "off": "-21% OFF"
+    },
+    {
+        "id": "wm9",
+        "image": "/women-product10.jpg",
+        "secondImage": "",
+        "brand": "Iguera",
+        "title": "Look slogan cherry sweet tee in white",
+        "lessPrice": "",
+        "price": "$48.00",
+        "off": ""
+    },
+    {
+        "id": "wm10",
+        "image": "/women-product11.webp",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Maternity nursing short sleeve top with button detail",
+        "lessPrice": "$98.00",
+        "price": "$58.00",
+        "off": "-41% OFF"
+    },
+    {
+        "id": "wm11",
+        "image": "/women-product12.jpg",
+        "secondImage": "",
+        "brand": "Guaraxu",
+        "title": "Maternity ultimate jersey peg trousers",
+        "lessPrice": "",
+        "price": "$89.00",
+        "off": ""
+    },
+    {
+        "id": "wm12",
+        "image": "/women-product13.webp",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Missguided longline denim shorts in blue",
+        "lessPrice": "",
+        "price": "$74.00",
+        "off": ""
+    },
+    {
+        "id": "wm13",
+        "image": "/women-product14.webp",
+        "secondImage": "",
+        "brand": "Quisuito",
+        "title": "Noisy May Petite stripe linen playsuit",
+        "lessPrice": "$78.00",
+        "price": "$45.00",
+        "off": "-40% OFF"
+    },
+    {
+        "id": "wm14",
+        "image": "/women-product15.webp",
+        "secondImage": "",
+        "brand": "Quisuito",
+        "title": "Palm tree print pyjamas set in white pattern",
+        "lessPrice": "",
+        "price": "$45.00",
+        "off": ""
+    },
+    {
+        "id": "wm15",
+        "image": "/women-product16.webp",
+        "secondImage": "",
+        "brand": "Quisuito",
+        "title": "Petite wrap top in plisse with batwing sleeve",
+        "lessPrice": "",
+        "price": "$98.00",
+        "off": ""
+    },
+    {
+        "id": "wm16",
+        "image": "/women-product17.webp",
+        "secondImage": "/women-product18.webp",
+        "brand": "Iguera",
+        "title": "Short sleeve maternity nursing top with button detail",
+        "lessPrice": "$98.00",
+        "price": "$58.00",
+        "off": "-41% OFF"
+    },
+    {
+        "id": "wm17",
+        "image": "/women-product19.webp",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Tall Florence authentic straight leg jeans in washed black",
+        "lessPrice": "$25.00",
+        "price": "$15.00",
+        "off": "-21% OFF"
+    },
+    {
+        "id": "wm18",
+        "image": "/women-product20.webp",
+        "secondImage": "",
+        "brand": "Zenuro",
+        "title": "Tall high neck top in mesh with puff sleeve",
+        "lessPrice": "",
+        "price": "$48.00",
+        "off": ""
+    },
+    {
+        "id": "wm19",
+        "image": "/women-product21.jpg",
+        "secondImage": "",
+        "brand": "Dumark",
+        "title": "The East Order behati short sleeve floral mini dress",
+        "lessPrice": "",
+        "price": "$68.00",
+        "off": ""
+    },
+    {
+        "id": "wm20",
+        "image": "/women-product22.webp",
+        "secondImage": "/women-product23.webp",
+        "brand": "Dumark",
+        "title": "Training printed legging in purple",
+        "lessPrice": "$98.00",
+        "price": "$59.00",
+        "off": "-41% OFF"
+    },
+    {
+        "id": "wm21",
+        "image": "/women-product24.jpg",
+        "secondImage": "",
+        "brand": "Iguera",
+        "title": "Training Trefoil halter tank in white",
+        "lessPrice": "",
+        "price": "$59.00",
+        "off": ""
+    },
+    {
+        "id": "wm22",
+        "image": "/women-product25.jpg",
+        "secondImage": "",
+        "brand": "Guaraxu",
+        "title": "Union Tall linen double breasted blazer co-ord",
+        "lessPrice": "",
+        "price": "$78.00",
+        "off": ""
+    }
+]
+
+// NavLinks
+
+const navLinks: NavLink[] = [
+    { label: "Home", href: "/" },
+    { label: "Men's", href: "/Pages/MensProducts/" },
+    { label: "Women's", href: "/Pages/WomensProduct/" },
+    { label: "Shoes's", href: "/Pages/ShoesProduct/" },
+    { label: "Collections", href: "/Pages/Collections" },
+    { label: "Blogs", href: "/Pages/Blogs" },
+];
+
+{/* Mobile Menu */}
+<div
+    className={`lg:hidden fixed top-[60px] left-0 w-full z-50 bg-white transition-all duration-300 ${open ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-6"
+        }`}>
+    <div className="mx-[5%] rounded-2xl shadow-2xl border border-white/10">
+        <nav className="flex flex-col px-6 py-6 gap-5">
+            {navLinks.map((link) => (
+                <Link
+                    key={link.label}
+                    href={link.href}
+                    onClick={() => setOpen(false)}
+                    className={`text-lg font-medium border-b border-black/10 ${pathname === link.href ? "text-purple-600" : "text-black hover:text-purple-600"
+                        }`}
+                >
+                    {link.label}
+                </Link>
+            ))}
+        </nav>
+    </div>
+</div>
+
+
+✕
+Don't have an account?{" "}
+Register Here
+Already have an account?{" "}
+Login Here
+
+By signing in or signing up to <Link href="https://uicode.in/" className="Exo font-bold">uicode</Link>, you agree to our{" "}
+
+Terms of Use 
+Privacy Policy
+
+
+
+//Hero Header
+
+30% Off
+Selected Styles
+An exclusive selection of this season's trends.
+Exclusively online!
+
+Shop For Men
+Shop For Women
+
+GET 10% OFF 
+YOUR FIRST PURCHASE
+
+SIGN UP
+
+FOLLOW US-ON
+
+JOGGING & RUNNING
+Shop Now
+
+FITNESS & YOGA
+HIKING GEAR
+
+
+
+
+Free and Easy Returns. Every Day.
+Hassle-Free Returns. Anytime.
+Secure Checkout With Full Protection
+Satisfaction Guaranteed On Every Purchase
+Trusted Products. Reliable Service Always
+
+
+
+// Discover
+
+FOOTWEAR, FOR EXERCISE.
+Innovation & Confort.
+
+WINTER GEAR
+Discover our selection of smart gearing
+
+WINTER GEAR
+Discover our selection of smart gearing
+
+
+// Shop Banner Category Section
+
+Shop Now
+LEGGINGS
+SHOP BY SPORTS
+Fitness & Yoga
+Football
+Tennis
+Swimwear
+Basketball
+Athletics
+Dancewear
+Boxing
+
+JACKETS & COATS
+TOPS
+
+// Hot Deal Banner Section
+
+hot deal this week
+Flat 40% off everything
+Explore More
+
+// Blog Section
+
+REY'S JOURNAL
+We write stuff too
+READ MORE ARTICLES
+
+const BlogsData = [
+    {
+        id: 1,
+        img: blog1,
+        date: "05/26",
+        title: "Yoga at home. Feel the transformation in only several weeks"
+    },
+    {
+        id: 2,
+        img: blog2,
+        date: "08/26",
+        title: "Sports equipments to make your workout more fun"
+    },
+    {
+        id: 3,
+        img: blog3,
+        date: "09/26",
+        title: "Several prescription for a healthier meal – keto food"
+    },
+];
+
+// Follow Us Section
+
+Remember to show off your new purchase on insta by tagging us and get $20 off your next order.
+FOLLOW US ON INSTAGRAM
+
+const InstagramImages = [instaImg1, instaImg2, instaImg3, instaImg4, instaImg5, instaImg6, instaImg7];
+
+// Brand Section
+
+const BrandsData = [Brand1, Brand2, Brand3, Brand4, Brand5, Brand6, Brand7, Brand8, Brand9, Brand10];
+
+// Footer Section
+
+Orvena
+17 Irving Pl, New York, NY 10003
+Example@site.com
+123 456 7890
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. nisi ut aliquip ex ea commodo consequat.
+
+SHOP
+Men Clothing
+Women Clothing
+Shoes
+Outlet
+Collections
+
+SPORTS
+
+HELP
+Asked Questions
+Privacy Policy
+Returns & Exchanges
+Terms & Conditions
+
+Follow Us
+Facebook
+Twitter
+Dribble
+Instagram
+Pinterest
+
+© Copyright 2026. All Rights Reserved by 
+https://uicode.in/
+uicode
+
+Secure payments :
+const paymentsData = [payment1, payment2, payment3, payment4, payment5, payment6];
+
+
+// Blogs Page
+
+
+const BlogsData = [
+    {
+        id: 1,
+        img: blog1,
+        date: "05/26",
+        title: "Yoga at home. Feel the transformation in only several weeks"
+    },
+    {
+        id: 2,
+        img: blog2,
+        date: "08/26",
+        title: "Sports equipments to make your workout more fun"
+    },
+    {
+        id: 3,
+        img: blog3,
+        date: "09/26",
+        title: "Several prescription for a healthier meal – keto food"
+    },
+    {
+        id: 4,
+        img: blog4,
+        date: "11/26",
+        title: "Parisian Brand Gentle Reminder Launches Ready-To-Wear"
+    },
+    {
+        id: 5,
+        img: blog5,
+        date: "02/26",
+        title: "Ace & Tate Unveil SS23′ Campaign ‘Word Up’ with James Messiah"
+    },
+    {
+        id: 6,
+        img: blog6,
+        date: "04/26",
+        title: "Les Benjamins & PUMA Link Up for Carpet Influenced SS23 Drop"
+    },
+];
+
+Latest Blogs
+
+
+// Blogs Details
+
+const BlogsData = [
+  {
+    id: 1,
+    img: blog1,
+    date: "05/26",
+    title: "Yoga at home. Feel the transformation in only several weeks",
+    desc: "Rapidiously predominate cross-media infrastructures via extensible ideas. Synergistically impact reliable solutions via user-centric processes. Quickly parallel task equity invested infomediaries whereas accurate opportunities. Intrinsicly coordinate accurate supply chains via low-risk high-yield architectures. Appropriately morph high-payoff ideas rather than 2.0 human capital.",
+    desc1: "Holisticly empower technically sound data and technically sound communities. Quickly plagiarize backward-compatible models rather than.",
+    desc2: "Monotonectally reinvent 24/365 growth strategies through market positioning innovation. Objectively scale user friendly “outside the box” thinking after B2C leadership. Interactively reinvent cross-unit interfaces vis-a-vis next-generation experiences. Continually communicate professional architectures through revolutionary infomediaries. Assertively simplify one-to-one architectures whereas fully tested benefits.",
+    desc3: "Proactively create covalent imperatives through parallel e-business. Efficiently parallel task enabled services without frictionless."
+  },
+  {
+    id: 2,
+    img: blog2,
+    date: "08/26",
+    title: "Sports equipments to make your workout more fun",
+    desc: "Appropriately monetize premier partnerships vis-a-vis intermandated interfaces. Objectively generate empowered applications for enterprise technologies. Collaboratively aggregate client-based alignments whereas optimal core competencies. Monotonectally build process-centric methods of empowerment whereas holistic markets. Phosfluorescently streamline turnkey metrics and plug-and-play e-business.",
+    desc1: "Intrinsicly pontificate cross functional value for sticky intellectual capital. Assertively fabricate integrated scenarios with emerging e-tailers. Holisticly develop.",
+    desc2: "Assertively fabricate quality web-readiness after cross-platform collaboration and idea-sharing. Rapidiously orchestrate transparent meta-services through prospective resources. Enthusiastically pontificate maintainable best practices via mission-critical meta-services. Continually architect adaptive portals without cross-unit alignments. Completely engage high standards in processes rather than sticky e-services.",
+    desc3: "Compellingly monetize process-centric information before client-based outsourcing. Conveniently benchmark."
+  },
+  {
+    id: 3,
+    img: blog3,
+    date: "09/26",
+    title: "Several prescription for a healthier meal – keto food",
+    desc: "Credibly predominate extensible vortals before resource sucking platforms. Uniquely embrace competitive imperatives with B2C innovation. Collaboratively pontificate reliable vortals without strategic infrastructures. Objectively architect holistic methodologies with timely potentialities. Rapidiously envisioneer web-enabled collaboration and idea-sharing via proactive human capital.",
+    desc1: "Efficiently seize exceptional e-markets for transparent imperatives. Continually parallel task clicks-and-mortar portals with cross-media meta-services. Intrinsicly unleash.",
+    desc2: "Appropriately engage focused services through backward-compatible content. Competently engage e-business communities vis-a-vis go forward best practices. Dramatically grow optimal outsourcing for end-to-end manufactured products. Completely incubate resource sucking customer service with vertical communities. Uniquely deploy synergistic meta-services before maintainable solutions.",
+    desc3: "Uniquely aggregate stand-alone technologies through economically sound models."
+  },
+  {
+    id: 4,
+    img: blog4,
+    date: "11/26",
+    title: "Parisian Brand Gentle Reminder Launches Ready-To-Wear",
+    desc: "Assertively whiteboard error-free growth strategies and intuitive leadership. Dynamically pursue interdependent supply chains after quality applications. Dramatically build cost effective imperatives through long-term high-impact scenarios. Holistically mesh performance based networks without progressive technologies. Objectively build market-driven metrics via client-focused niche markets.",
+    desc1: "Globally develop quality methods of empowerment after empowered testing procedures. Objectively supply client-centric paradigms after high-quality alignments. Globally implement B2C users whereas accurate outsourcing. Collaboratively enable effective vortals whereas holistic e-markets.",
+    desc2: "Holistically administrate proactive communities with principle-centered best practices. Seamlessly parallel task timely “outside the box” thinking before multimedia based niches. Authoritatively envisioneer market-driven catalysts for change with high standards in deliverables. Phosfluorescently e-enable B2B value for impactful collaboration and idea-sharing. Compellingly pursue seamless experiences before adaptive users.",
+    desc3: "Enthusiastically generate flexible data without accurate benefits. Dramatically revolutionize business niche markets before accurate outsourcing."
+  },
+  {
+    id: 5,
+    img: blog5,
+    date: "02/26",
+    title: "Ace & Tate Unveil SS23′ Campaign ‘Word Up’ with James Messiah",
+    desc: "Assertively whiteboard error-free growth strategies and intuitive leadership. Dynamically pursue interdependent supply chains after quality applications. Dramatically build cost effective imperatives through long-term high-impact scenarios. Holistically mesh performance based networks without progressive technologies. Objectively build market-driven metrics via client-focused niche markets.",
+    desc1: "Globally develop quality methods of empowerment after empowered testing procedures. Objectively supply client-centric paradigms after high-quality alignments. Globally implement B2C users whereas accurate outsourcing. Collaboratively enable effective vortals whereas holistic e-markets.",
+    desc2: "Holistically administrate proactive communities with principle-centered best practices. Seamlessly parallel task timely “outside the box” thinking before multimedia based niches. Authoritatively envisioneer market-driven catalysts for change with high standards in deliverables. Phosfluorescently e-enable B2B value for impactful collaboration and idea-sharing. Compellingly pursue seamless experiences before adaptive users.",
+    desc3: "Enthusiastically generate flexible data without accurate benefits. Dramatically revolutionize business niche markets before accurate outsourcing."
+  },
+  {
+    id: 6,
+    img: blog6,
+    date: "04/26",
+    title: "Les Benjamins & PUMA Link Up for Carpet Influenced SS23 Drop",
+    desc: "Assertively whiteboard error-free growth strategies and intuitive leadership. Dynamically pursue interdependent supply chains after quality applications. Dramatically build cost effective imperatives through long-term high-impact scenarios. Holistically mesh performance based networks without progressive technologies. Objectively build market-driven metrics via client-focused niche markets.",
+    desc1: "Globally develop quality methods of empowerment after empowered testing procedures. Objectively supply client-centric paradigms after high-quality alignments. Globally implement B2C users whereas accurate outsourcing. Collaboratively enable effective vortals whereas holistic e-markets.",
+    desc2: "Holistically administrate proactive communities with principle-centered best practices. Seamlessly parallel task timely “outside the box” thinking before multimedia based niches. Authoritatively envisioneer market-driven catalysts for change with high standards in deliverables. Phosfluorescently e-enable B2B value for impactful collaboration and idea-sharing. Compellingly pursue seamless experiences before adaptive users.",
+    desc3: "Enthusiastically generate flexible data without accurate benefits. Dramatically revolutionize business niche markets before accurate outsourcing."
+  },
+];
+
+
+Blog Details
+
+Save my name, email, and website in this browser for the next time I comment.
+Post Comments
