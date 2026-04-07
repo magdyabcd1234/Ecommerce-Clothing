@@ -99,14 +99,14 @@ export default function Wishlist() {
                                 </div>
                                 <div className="flex items-center gap-3 mt-3">
                                     <button
-                                        onClick={() => removeFromWishlist(item.id)}
+                                        onClick={() => addToCart(item.id)}
                                         className="p-2 rounded-full bg-black cursor-pointer text-white hover:bg-gray-800 transition"
                                     >
                                         <Icon icon="akar-icons:cart" width="20" height="20"/>
                                     </button>
 
                                     <button
-                                        onClick={() => toggleWishlist(item.id)}
+                                        onClick={() => removeFromWishlist(item.id)}
                                         className="p-2 rounded-full bg-red-500 cursor-pointer text-white hover:bg-red-600 transition"
                                     >
                                         <Icon icon="mdi:delete" width="20" height="20"/>
